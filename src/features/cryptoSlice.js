@@ -2,10 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
   cryptoData: [
-    {
-      id: 1,
-      name: "Bitcoin",
-      symbol: "BTC",
+    { id: 1,name: "Bitcoin",symbol: "BTC",
       price: 93759.48,
       change1h: 0.43,
       change24h: 0.93,
@@ -17,10 +14,8 @@ const initialState = {
      
     },
     {
-      id: 2,
-      name: "Ethereum",
-      symbol: "ETH",
-      price: 1802.46,
+      id: 2,name: "Ethereum",symbol: "ETH",
+  price: 1802.46,
       change1h: 0.60,
       change24h: 3.21,
       change7d: 13.68,
@@ -31,9 +26,7 @@ const initialState = {
     
     },
     {
-      id: 3,
-      name: "Tether",
-      symbol: "USDT",
+      id: 3,name: "Tether",symbol: "USDT",
       price: 1.00,
       change1h: 0.00,
       change24h: 0.00,
@@ -45,9 +38,7 @@ const initialState = {
     
     },
     {
-      id: 4,
-      name: "XRP",
-      symbol: "XRP",
+      id: 4, name: "XRP",symbol: "XRP",
       price: 2.22,
       change1h: 0.46,
       change24h: 0.54,
@@ -59,9 +50,7 @@ const initialState = {
     
     },
     {
-      id: 5,
-      name: "BNB",
-      symbol: "BNB",
+      id: 5,name: "BNB",symbol: "BNB",
       price: 606.65,
       change1h: 0.09,
       change24h: -1.20,
@@ -73,8 +62,8 @@ const initialState = {
     
     }
   ],
-  favorites: [], // Array of crypto IDs that are favorited
-  showOnlyFavorites: false // Toggle to show only favorite cryptos
+  favorites: [], 
+  showOnlyFavorites: false 
 };
 
 export const cryptoSlice = createSlice({
@@ -103,10 +92,8 @@ export const cryptoSlice = createSlice({
     toggleFavorite: (state, action) => {
       const cryptoId = action.payload;
       if (state.favorites.includes(cryptoId)) {
-        // Remove from favorites if already favorited
         state.favorites = state.favorites.filter(id => id !== cryptoId);
       } else {
-        // Add to favorites if not already favorited
         state.favorites.push(cryptoId);
       }
     },

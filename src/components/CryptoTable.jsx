@@ -20,8 +20,6 @@ const CryptoTable = () => {
     const unsubscribe = websocketService.onMessage((updates) => {
       dispatch(updateCryptoData(updates));
     });
-
-   
     return () => {
       websocketService.disconnect();
       unsubscribe();
