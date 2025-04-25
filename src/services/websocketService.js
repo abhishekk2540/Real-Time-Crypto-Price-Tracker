@@ -9,7 +9,7 @@ class WebSocketService {
 
     this.interval = setInterval(() => {
       this.generatePriceUpdates();
-    }, 1500); // Update every 1.5 seconds
+    }, 1500); 
   }
 
   disconnect() {
@@ -26,15 +26,10 @@ class WebSocketService {
 
   generatePriceUpdates() {
     const updates = {};
-    
-    // List of crypto IDs we're tracking
     const cryptoIds = [1, 2, 3, 4, 5];
     
     cryptoIds.forEach(id => {
-      // Random price change between -2% and +2%
       const priceChange = (Math.random() * 4 - 2) / 100;
-      
-      // Random volume change between -5% and +5%
       const volumeChange = (Math.random() * 10 - 5) / 100;
       
       updates[id] = {
@@ -43,8 +38,6 @@ class WebSocketService {
         timestamp: Date.now()
       };
     });
-
-    // Notify all subscribers
     this.callbacks.forEach(callback => callback(updates));
   }
 }
