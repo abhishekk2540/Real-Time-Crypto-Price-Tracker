@@ -17,7 +17,7 @@ A modern web application that provides real-time cryptocurrency price tracking a
 - Cryptocurrency APIs for real-time data
 - Modern CSS Framework Tailwindcss for styling
 
-## Getting Started 🚀
+
 
 ### Prerequisites
 
@@ -29,4 +29,8 @@ A modern web application that provides real-time cryptocurrency price tracking a
 - View real-time price updates
 - Track price changes and trends
 - Customize your watchlist
+
+## Video
+https://github.com/user-attachments/assets/9b42db50-e6dd-46bd-ba6f-81fdbd3a7007
+
 
