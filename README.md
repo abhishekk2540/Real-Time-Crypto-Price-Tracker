@@ -17,6 +17,7 @@ A modern web application that provides real-time cryptocurrency price tracking a
 - Cryptocurrency APIs for real-time data
 - Modern CSS Framework Tailwindcss for styling
 
+<<<<<<< HEAD
 ## Technical Implementation 🔧
 
 This project leverages several powerful technologies to deliver real-time cryptocurrency data and interactive visualizations:
@@ -30,6 +31,9 @@ This project leverages several powerful technologies to deliver real-time crypto
 - **WebSocket API**: Facilitates real-time data streaming from cryptocurrency exchanges and market data providers.
 
 ## Getting Started 🚀
+=======
+
+>>>>>>> 87eade7272f48ca085a084b0576634f4d7fed8bb
 
 ### Prerequisites
 
@@ -41,4 +45,8 @@ This project leverages several powerful technologies to deliver real-time crypto
 - View real-time price updates
 - Track price changes and trends
 - Customize your watchlist
+
+## Video
+https://github.com/user-attachments/assets/9b42db50-e6dd-46bd-ba6f-81fdbd3a7007
+
 
