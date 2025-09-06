@@ -17,6 +17,18 @@ A modern web application that provides real-time cryptocurrency price tracking a
 - Cryptocurrency APIs for real-time data
 - Modern CSS Framework Tailwindcss for styling
 
+## Technical Implementation 🔧
+
+This project leverages several powerful technologies to deliver real-time cryptocurrency data and interactive visualizations:
+
+- **Socket.IO**: Enables real-time, bidirectional communication between the client and server, ensuring instant price updates and market data streaming without polling.
+- **Chart.js**: Provides beautiful, responsive, and interactive charts for visualizing cryptocurrency price trends, market caps, and trading volumes.
+- **Axios**: Handles HTTP requests to cryptocurrency APIs with promise-based architecture.
+- **React Query**: Manages server state, caching, and data synchronization for optimal performance.
+- **Tailwind CSS**: Offers utility-first CSS framework for rapid UI development and responsive design.
+- **React Router**: Implements client-side routing for seamless navigation between different views and cryptocurrency details.
+- **WebSocket API**: Facilitates real-time data streaming from cryptocurrency exchanges and market data providers.
+
 ## Getting Started 🚀
 
 ### Prerequisites
